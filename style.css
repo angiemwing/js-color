@@ -1,0 +1,74 @@
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  padding: .45em 2.65em 3em;
+  line-height: 1.5;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  margin-bottom: 0;
+  font-size: 9em;
+  font-family: Times;
+}
+h1 + p {
+  font-size: 1.08em;
+  color: black;
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: .45em .5em;
+  margin-bottom: .35em;
+  display: flex;
+  align-items: center;
+}
+input,
+button {
+  font-size: .85em;
+  padding: 1em 1em;
+  border-radius: .3em;
+  outline: 0;
+}
+input {
+  border: 1px solid lightgray;
+  margin-right: 1em;
+  margin-bottom: 100px;
+}
+div {
+  margin-top: 2.8em;
+  padding: 1.5em 0 .5em;
+  border-top: 1px solid #637a91
+}
+p {
+  font-size: .9em;
+  color: lightgray;
+}
+p.description,
+p:nth-of-type(2) {
+  font-weight: light;
+  font-style: normal;
+}
+/* Buttons */
+button {
+  color: white;
+  background: lightgray;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+button + button {
+  margin-left: .5em;
+}
+p + button {
+  background: #52bab3;
